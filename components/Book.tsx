@@ -127,7 +127,6 @@ export default function BookList() {
 
   // Mở modal Xóa
   const openDeleteModal = (book: BookType) => {
-    setSelectedBookId(bookData.bookId)
     setDeleteModal(true);
   };
   // Đóng modal Xóa
