@@ -178,7 +178,7 @@ export default function BookList() {
         <Table
           dataSource={bookData}
           columns={columns}
-          rowKey="bookId"
+          rowKey="bookid"
           pagination={{ pageSize: 5 }}
         />
       </div>
